@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Interativo - Gabriel Paulo Mai</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js"></script>
+    <meta property="og:title" content="Currículo de Gabriel Paulo Mai">
+    <meta property="og:description" content="Desenvolvedor de Software com especialização em backend e automação de processos.">
+    <meta property="og:image" content="path/to/image.jpg">
+    <meta property="og:url" content="http://gabrielpaulo.com/curriculo">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-8">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Gabriel Paulo Mai</h1>
+            <p class="mt-2">
+                <a href="mailto:gabrielmai1663@gmail.com" class="underline" target="_blank">
+                    <i class="fas fa-envelope"></i> gabrielmai1663@gmail.com
+                </a> |
+                <a href="https://api.whatsapp.com/send?phone=5547992627617" class="underline" target="_blank">
+                    <i class="fab fa-whatsapp"></i> (47) 9 9262-7617
+                </a>
+            </p>
+            <p class="mt-2">
+                <a href="https://linkedin.com/in/gabriel-mai" target="_blank" class="underline">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a> |
+                <a href="https://github.com/GabrielPauloMai" target="_blank" class="underline">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </p>
+            <a href="Curriculo_Gabriel_Paulo_Mai.pdf" download class="mt-4 inline-block bg-white text-blue-600 px-6 py-2 rounded shadow" target="_blank">
+                <i class="fas fa-download"></i> Baixar Currículo
+            </a>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="text-xl font-semibold">Menu</div>
+            <div id="menu-toggle" class="block lg:hidden cursor-pointer">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div id="menu" class="hidden lg:flex space-x-4">
+                <a href="#resumo" class="hover:text-blue-300">Resumo</a>
+                <a href="#experiencia" class="hover:text-blue-300">Experiência</a>
+                <a href="#educacao" class="hover:text-blue-300">Educação</a>
+                <a href="#habilidades" class="hover:text-blue-300">Habilidades</a>
+                <a href="#projetos" class="hover:text-blue-300">Projetos</a>
+                <a href="#certificacoes" class="hover:text-blue-300">Certificações</a>
+            </div>
+        </div>
+        <div id="mobile-menu" class="lg:hidden hidden flex flex-col space-y-4 p-4 bg-gray-800 text-white">
+            <a href="#resumo" class="hover:text-blue-300">Resumo</a>
+            <a href="#experiencia" class="hover:text-blue-300">Experiência</a>
+            <a href="#educacao" class="hover:text-blue-300">Educação</a>
+            <a href="#habilidades" class="hover:text-blue-300">Habilidades</a>
+            <a href="#projetos" class="hover:text-blue-300">Projetos</a>
+            <a href="#certificacoes" class="hover:text-blue-300">Certificações</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-10 px-4 lg:px-0">
+        <!-- Resumo Profissional -->
+        <section id="resumo" class="mb-12 bg-white shadow rounded-lg p-6">
+            <h2 class="text-3xl font-semibold text-blue-600 mb-4">Resumo Profissional</h2>
+            <p class="text-lg leading-relaxed">
+                Desenvolvedor de Software com mais de 2 anos de experiência na área de tecnologia, especializado em backend com amplo domínio em PHP e Laravel. Possuo uma sólida capacidade analítica e lógica, o que me permite identificar e resolver pontos críticos em projetos complexos. Além do desenvolvimento, expandi minhas habilidades em áreas complementares como testes, cloud, e DevOps, o que me proporcionou uma visão ampla e integrada do ciclo de vida do software. Minha experiência com Python permitiu a criação de diversas automações que otimizaram processos e aumentaram a produtividade das equipes com as quais trabalhei. Busco constantemente ambientes desafiadores, onde possa aplicar minha expertise em soluções inovadoras e contribuir como uma referência confiável dentro do time.
+            </p>
+        </section>
+
+        <!-- Experiência Profissional -->
+        <section id="experiencia" class="mb-12 bg-white shadow rounded-lg p-6">
+            <h2 class="text-3xl font-semibold text-blue-600 mb-4">Experiência Profissional</h2>
+            <article>
+                <h3 class="text-xl font-semibold">Belluno Digital Bank</h3>
+                <p class="italic">Analista de Suporte, Analista de Teste, Desenvolvedor Backend | 2022 - Atual</p>
+                <ul class="list-disc pl-6 mt-4">
+                    <li>Desenvolvedor Backend focado na criação e manutenção do sistema de pagamentos da Belluno, assegurando a qualidade e performance dos sistemas críticos.</li>
+                    <li>Colaboração no desenvolvimento de funcionalidades essenciais para o backend, incluindo a implementação de novos módulos de pagamento e melhorias em sistemas existentes.</li>
+                    <li>Como Analista de Testes, executei testes de caixa branca e de performance, garantindo a robustez e eficiência dos sistemas antes da implantação.</li>
+                    <li>Desenvolvimento de automações de processos para otimizar o fluxo de trabalho e aumentar a produtividade das equipes.</li>
+                    <li>Experiência com WordPress e WooCommerce para a criação e manutenção de sites e lojas online, garantindo sua integração eficiente com sistemas de pagamento.</li>
+                </ul>
+            </article>
+
+            <h3 class="text-2xl font-semibold mt-6">Conquistas e Resultados:</h3>
+            <ul class="list-disc pl-6 mt-4">
+                <li>Implementação de um sistema de filtragem de leads de minha autoria, utilizando técnicas avançadas de busca e web scraping. Este projeto resultou em um aumento significativo na força de vendas para os produtos digitais do banco.</li>
+                <li>Contribuição essencial para a manutenção e desenvolvimento contínuo dos sistemas de pagamento, garantindo que operassem com alta eficiência e segurança.</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold mt-6">Tecnologias Utilizadas:</h3>
+            <ul class="list-disc pl-6 mt-4">
+                <li>PHP, Laravel, Python, Selenium, Javascript, Cypress, SQL, AWS, Docker, CloudFormation, Linux, WordPress, WooCommerce.</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold mt-6">Desafios Enfrentados:</h3>
+            <ul class="list-disc pl-6 mt-4">
+                <li>Um dos maiores desafios enfrentados foi garantir a integridade e a eficiência do sistema de pagamentos durante a integração de novos módulos. A abordagem envolveu uma análise detalhada das possíveis falhas e a implementação de automações para testes rigorosos, resultando em uma integração suave e sem interrupções para os usuários finais.</li>
+            </ul>
+        </section>
+
+        <!-- Educação -->
+        <section id="educacao" class="mb-12 bg-white shadow rounded-lg p-6">
+            <h2 class="text-3xl font-semibold text-blue-600 mb-4">Educação</h2>
+            <div>
+                <p class="font-semibold">Católica de Santa Catarina - Centro Universitário</p>
+                <p>Superior de Tecnologia (CST) em Análise e Desenvolvimento de Sistemas | Janeiro de 2021 - Dezembro de 2022</p>
+                <p class="mt-2">Projeto de Conclusão de Curso (TCC): Desenvolvi uma solução inovadora para listagem de preços de combustíveis utilizando dados disponibilizados pelo Procon. O projeto envolveu a criação de uma API integrada a aplicativos móveis, permitindo aos usuários filtrarem valores, localizarem postos de combustíveis próximos e compararem preços de forma eficiente. Esse projeto demonstrou habilidades em desenvolvimento backend, integração de APIs e criação de soluções práticas para usuários finais.</p>
+            </div>
+        </section>
+
+        <!-- Habilidades Técnicas -->
+        <section id="habilidades" class="mb-12 bg-white shadow rounded-lg p-6">
+            <h2 class="text-3xl font-semibold text-blue-600 mb-4">Habilidades Técnicas</h2>
+            <ul class="list-disc pl-6">
+                <li><strong>Linguagens de Programação:</strong> PHP, Python, JavaScript, SQL, NoSQL (MongoDB), Bash/Shell scripting, HTML/CSS</li>
+                <li><strong>Frameworks e Bibliotecas:</strong> Laravel (PHP), Selenium (Automação de Testes), Cypress (Automação de Testes), Django (Python), Flask (Python)</li>
+                <li><strong>Ferramentas e Plataformas:</strong> Docker, AWS (Amazon Web Services), CloudFormation, Git, WordPress, WooCommerce, Linux/Unix</li>
+                <li><strong>Sistemas de Banco de Dados:</strong> MySQL, PostgreSQL, SQLServer, Redis (Cache), MongoDB (NoSQL), DynamoDB (AWS)</li>
+                <li><strong>Metodologias de Desenvolvimento:</strong> Agile, Scrum, DevOps, Test-Driven Development (TDD), Continuous Integration/Continuous Deployment (CI/CD)</li>
+                <li><strong>Outras Habilidades Técnicas:</strong> API Development (RESTful APIs), Web Scraping, Automação de Processos, Integração de Sistemas, Configuração e Gestão de Servidores (Linux), Grafana, Jira</li>
+            </ul>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="mb-12 bg-white shadow rounded-lg p-6">
+            <h2 class="text-3xl font-semibold text-blue-600 mb-4">Projetos</h2>
+
+            <article class="mb-6">
+                <h3 class="text-xl font-semibold">Website do Museu Irmão Luiz</h3>
+                <p>Desenvolvimento completo do site oficial do Museu Irmão Luiz, focado na apresentação de exposições e na integração com plataformas de gerenciamento de conteúdo.</p>
+                <p class="mt-2"><strong>Tecnologias Utilizadas:</strong> WordPress, PHP, HTML/CSS</p>
+                <a href="https://museuirmaoluiz.com.br" target="_blank" class="text-blue-600 underline mt-2 block">Ver Projeto</a>
+            </article>
+
+            <article class="mb-6">
+                <h3 class="text-xl font-semibold">Sistema de Gerenciamento de Festas</h3>
+                <p>Desenvolvimento de um sistema para gerenciar eventos e festas, incluindo funções para gerenciamento de convidados, logística e cronogramas.</p>
+                <p class="mt-2"><strong>Tecnologias Utilizadas:</strong> PHP, Laravel, MySQL</p>
+            </article>
+
+            <article class="mb-6">
+                <h3 class="text-xl font-semibold">Sistema de Treinos</h3>
+                <p>Criação de um sistema para a organização e monitoramento de treinos, com funcionalidades para registro de progresso e ajuste de planos de treino.</p>
+                <p class="mt-2"><strong>Tecnologias Utilizadas:</strong> Python, Django, SQL</p>
+            </article>
+
+            <article class="mb-6">
+                <h3 class="text-xl font-semibold">Gerador de Leads</h3>
+                <p>Desenvolvimento de uma aplicação para filtrar e coletar leads utilizando técnicas avançadas de web scraping, contribuindo significativamente para as estratégias de vendas da Belluno Digital Bank.</p>
+                <p class="mt-2"><strong>Tecnologias Utilizadas:</strong> Python, Selenium, SQL</p>
+            </article>
+
+            <article>
+                <h3 class="text-xl font-semibold">Automação Total de Testes do Sistema de Pagamentos da Belluno</h3>
+                <p>Implementação de uma automação completa de testes para o sistema de pagamentos, garantindo alta cobertura e confiabilidade do sistema antes da produção.</p>
+                <p class="mt-2"><strong>Tecnologias Utilizadas:</strong> Cypress, Selenium, Docker</p>
+            </article>
+        </section>
+
+        <!-- Certificações e Cursos -->
+        <section id="certificacoes" class="mb-12 bg-white shadow rounded-lg p-6">
+            <h2 class="text-3xl font-semibold text-blue-600 mb-4">Certificações e Cursos</h2>
+            <div>
+                <p><strong>AWS Certified Cloud Practitioner</strong></p>
+                <p>Amazon Web Services (AWS) - Válido até 2026</p>
+                <p class="mt-4"><strong>Curso "Ser + Tech"</strong></p>
+                <p>Ada Tech - Concluído em Novembro de 2023</p>
+                <p class="mt-2">Principais módulos: Sistema Operacional Linux, Programação Básica (Python), Serviços Cloud (AWS), Provisionamento como Código (AWS), Banco de Dados (PostgreSQL), Observability. (324 horas)</p>
+                <p class="mt-4"><strong>Curso de Teste de Software (Em andamento)</strong></p>
+                <p>Escola Britânica de Artes Criativas e Tecnologia (EBAC)</p>
+                <p class="mt-2">Fundamentos e técnicas de teste, automação de UI e API com Cypress, testes ágeis e de performance, testes mobile, Git, e bancos de dados SQL e NoSQL.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 Gabriel Paulo Mai. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
